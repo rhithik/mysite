@@ -1,0 +1,7 @@
+{
+  "tabWidth": 2,
+  "bracketSpacing": true,
+  "htmlWhitespaceSensitivity": "css",
+  "printWidth": 80,
+  "trailingComma": "es5"
+}
