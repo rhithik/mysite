@@ -1,221 +1,200 @@
-body{
-    font-family: Arial, Helvetica, sans-serif
+body {
+  font-family: Arial, Helvetica, sans-serif;
 }
-.main-container{
-    width: 100%
+.main-container {
+  width: 100%;
 }
-.flex-container{
-    display: flex;
-    width: 100%;
-    background-color: black;
-    height: 100px;
-    justify-content: flex-end;
+.flex-container {
+  display: flex;
+  width: 100%;
+  background-color: black;
+  height: 100px;
+  justify-content: flex-end;
 }
 .menu {
-    min-width: 100px;
-    color: white;
-    font-size: 1.5em;
-    text-align: center;
-    padding-top: 40px;
-    padding-right: 40px;
+  min-width: 100px;
+  color: white;
+  font-size: 1.5em;
+  text-align: center;
+  padding-top: 40px;
+  padding-right: 40px;
 }
-.image-container{
-    display: flex;
-    position: relative;
-    text-align: center;
+.image-container {
+  display: flex;
+  position: relative;
+  text-align: center;
 }
-#banner-image{
-    width: 100%;
-    opacity: 0.7;
+#banner-image {
+  width: 100%;
+  opacity: 0.7;
 }
-.banner-title{
-    position: absolute;
-    top: 30%;
-    left: 40%;
-    font-size: 5em;
+.banner-title {
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  font-size: 5em;
 }
-.banner-subtitle{
-    position: absolute;
-    top: 39%;
-    left: 41.2%;
-    font-size: 2em;
+.banner-subtitle {
+  position: absolute;
+  top: 39%;
+  left: 41.2%;
+  font-size: 2em;
 }
-.skills-title{
-    padding-top: 10px;
+.skills-title {
+  padding-top: 10px;
 }
-.skill-container{
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    height: 500px;
-    margin-top: 50px;
-    flex-direction: row;
-    margin-left: auto;
-
+.skill-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  height: 500px;
+  margin-top: 50px;
+  flex-direction: row;
+  margin-left: auto;
 }
-.skill1{
-    display: flex;
-    width: 100%;
-    margin-top: 40px;
-    justify-content: center;
+.skill1 {
+  display: flex;
+  width: 100%;
+  margin-top: 40px;
+  justify-content: center;
 }
-.skill2{
-    display: flex;
-    width: 100%;
-    margin-top: 40px;
-    justify-content: center;
+.skill2 {
+  display: flex;
+  width: 100%;
+  margin-top: 40px;
+  justify-content: center;
 }
-#image{
-    width: 150px;
-    height: 150px;
-    margin-right: 50px;
+#image {
+  width: 150px;
+  height: 150px;
+  margin-right: 50px;
 }
-#skill-text{
-    color: black;
-    font-weight: bold;
-    margin-left: 20px;
-    font-size: 2em;
+#skill-text {
+  color: black;
+  font-weight: bold;
+  margin-left: 20px;
+  font-size: 2em;
 }
-#skill-text2{
-    color: black;
-    font-weight: bold;
-    margin-left: 30px;
-    font-size: 2em;
+#skill-text2 {
+  color: black;
+  font-weight: bold;
+  margin-left: 30px;
+  font-size: 2em;
 }
-.skills-heading{
-    display: flex;
-    widows: 100%;
-    height: 100px;
-    background-color: black;
-    font-size: 2em;
-    margin-bottom: 150px;
+.skills-heading {
+  display: flex;
+  widows: 100%;
+  height: 100px;
+  background-color: black;
+  font-size: 2em;
+  margin-bottom: 150px;
 }
-.skills-title{
-    margin-left: 47%;
-    margin-top: 100px;
+.skills-title {
+  margin-left: 47%;
+  margin-top: 100px;
 }
-.portfolio-heading{
-    display: flex;
-    widows: 100%;
-    height: 25;
-    margin-top: 10px;
-    font-size: 2em;
-    margin-bottom: 10px;
+.portfolio-heading {
+  display: flex;
+  widows: 100%;
+  height: 25;
+  margin-top: 10px;
+  font-size: 2em;
+  margin-bottom: 10px;
 }
-.portfolio-title{
-    margin-left: 45%;
-    margin-top: 25px;
+.portfolio-title {
+  margin-left: 45%;
+  margin-top: 25px;
 }
-.portfolio-container{
-    display: flex;
-    margin-left: 50px;
-    margin-top: 100px;
+.portfolio-container {
+  display: flex;
+  margin-left: 50px;
+  margin-top: 100px;
 }
-#portfolioimg{
-    height: 400px;
-    width: 300px;
-    margin-left: 100px;
-    margin-bottom: 50px;
-    border-radius: 25px;
+#portfolioimg {
+  height: 400px;
+  width: 300px;
+  margin-left: 100px;
+  margin-bottom: 50px;
+  border-radius: 25px;
 }
-.portfolio-description{
-    margin-left: 20px;
+.portfolio-description {
+  margin-left: 20px;
 }
-.portfolio-name{
-    font-size: 2em;
-    margin-left: 100px;
+.portfolio-name {
+  font-size: 2em;
+  margin-left: 100px;
 }
-.portfolio-info{
-    font-size: 1em;
-    margin-left: 100px;
-    margin-right: 1100px;
-    color: gray;
+.portfolio-info {
+  font-size: 1em;
+  margin-left: 100px;
+  margin-right: 1100px;
+  color: gray;
 }
-hr{
-    width: 50%;
-    align-self: center;
+hr {
+  width: 50%;
+  align-self: center;
 }
-.testimonials-heading{
-    display: flex;
-    widows: 100%;
-    height: 25;
-    margin-top: 10px;
-    font-size: 2em;
-    margin-bottom: 10px;
+.testimonials-heading {
+  display: flex;
+  widows: 100%;
+  height: 25;
+  margin-top: 10px;
+  font-size: 2em;
+  margin-bottom: 10px;
 }
-.testimonials-title{
-    margin-left: 45%;
-    margin-top: 25px;
+.testimonials-title {
+  margin-left: 45%;
+  margin-top: 25px;
 }
-.testimonials{
+.testimonials {
   display: flex;
   width: 100%;
   flex-direction: column;
   justify-content: center;
 }
-.client-name{
+.client-name,
+.client-name2,
+.client-name3 {
   margin-top: 100px;
-  width: 100%;
+  width: auto;
   height: 50px;
   font-size: 2em;
   margin-left: 45.8%;
 }
-.client-name2{
-  margin-top: 100px;
-  width: 100%;
-  height: 50px;
-  font-size: 2em;
+/* Reducing code duplication but retaining the unique % */
+/* Looking into centring things w/ Flex might be a good idea too*/
+.client-name2 {
   margin-left: 46.9%;
 }
-.client-name3{
-  margin-top: 100px;
-  width: 100%;
-  height: 50px;
-  font-size: 2em;
+.client-name3 {
   margin-left: 46.5%;
 }
-.client-designation{
-  width: 100%;
+.client-designation,
+.client-designation2,
+.client-designation3 {
+  width: auto;
   height: 50px;
   font-size: 1.5em;
   margin-left: 46.2%;
   color: gray;
 }
-.client-designation2{
-  width: 100%;
-  height: 50px;
-  font-size: 1.5em;
+.client-designation2,
+.client-designation3 {
   margin-left: 45.2%;
-  color: gray;
 }
-.client-designation3{
-  width: 100%;
-  height: 50px;
-  font-size: 1.5em;
-  margin-left: 45.2%;
-  color: gray;
-}
-.client-testimonial{
-  width: 100%;
+.client-testimonial,
+.client-testimonial2,
+.client-testimonial3 {
+  width: auto;
   height: 50px;
   font-size: 1.5em;
   margin-left: 31%;
   color: gray;
   font-style: italic;
 }
-.client-testimonial2{
-  width: 100%;
-  height: 50px;
-  font-size: 1.5em;
+.client-testimonial2 {
   margin-left: 31.5%;
-  color: gray;
-  font-style: italic;
 }
-.client-testimonial3{
-  width: 100%;
-  height: 50px;
-  font-size: 1.5em;
+.client-testimonial3 {
   margin-left: 31.4%;
-  color: gray;
-  font-style: italic;
 }
