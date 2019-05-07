@@ -22,7 +22,8 @@ body {
 .image-container {
   display: flex;
   position: relative;
-  text-align: center;
+  justify-content: center;
+  align-items: center
 }
 #banner-image {
   width: 100%;
@@ -30,14 +31,13 @@ body {
 }
 .banner-title {
   position: absolute;
-  top: 30%;
-  left: 40%;
+  text-align: center;
   font-size: 5em;
 }
 .banner-subtitle {
   position: absolute;
-  top: 39%;
-  left: 41.2%;
+  text-align: center;
+  margin-top: 45px;
   font-size: 2em;
 }
 .skill-container {
@@ -78,24 +78,23 @@ body {
   display: flex;
   widows: 100%;
   height: 25;
-  margin-top: 10px;
   font-size: 2em;
-  margin-bottom: 10px;
+  justify-content: center;
 }
 .portfolio-title {
-  margin-left: 45%;
-  margin-top: 25px;
+  text-align: center;
 }
 .portfolio-container {
   display: flex;
-  margin-left: 50px;
+  justify-content: center;
+  align-content: center;
   margin-top: 100px;
+  margin-bottom: 100px;
 }
 #portfolioimg {
   height: 400px;
   width: 300px;
-  margin-left: 100px;
-  margin-bottom: 50px;
+  align-self: center;
   border-radius: 25px;
 }
 .portfolio-description {
@@ -103,13 +102,13 @@ body {
 }
 .portfolio-name {
   font-size: 2em;
-  margin-left: 100px;
+  text-align: left;
 }
 .portfolio-info {
   font-size: 1em;
-  margin-left: 100px;
-  margin-right: 1100px;
+  text-align: left;
   color: gray;
+  width: 300px;
 }
 hr {
   width: 50%;
